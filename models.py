@@ -3,7 +3,7 @@ from mongoengine import connect
 
 connect(
     db="web20",
-    host="mongodb+srv://userweb:kCMUpFTzrjqCMW56@cluster1.8x3jujn.mongodb.net/?retryWrites=true&w=majority",
+    host="mongodb+srv://userweb:*******@cluster1.8x3jujn.mongodb.net/?retryWrites=true&w=majority",
     tls=True,
     tlsInsecure=True,
 )
